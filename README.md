@@ -1,6 +1,9 @@
 # HoN Constant Inventory Mod
 User interface mod for Heroes of Newerth to constantly show the inventory above each player without needing to mouse over them.
 
+![Example image of Geomancer with 4 items in his inventory.](https://i.imgur.com/VEwzfhb.jpg)
+![Example image of Rampage with 6 items in his inventory.](https://i.imgur.com/KKoCLxg.jpg)
+
 ## About
 
 This is a mod for [Heroes of Newerth](http://www.heroesofnewerth.com) to constantly display the inventory of each player as part of the in-game UI. Usually the inventory only shows if you mouse-over a player, which can be tough in the heat-of-battle. This mod allows you to always have visual access to everyone's inventory.
