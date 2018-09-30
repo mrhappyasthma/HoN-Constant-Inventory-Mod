@@ -3,6 +3,7 @@ User interface mod for Heroes of Newerth to constantly show the inventory above 
 
 ![Example image of Geomancer with 4 items in his inventory.](https://i.imgur.com/VEwzfhb.jpg)
 ![Example image of Rampage with 6 items in his inventory.](https://i.imgur.com/KKoCLxg.jpg)
+![Example image of Geomancer with all 8 slots shown.](https://i.imgur.com/Xiae35r.jpg)
 
 ## About
 
