@@ -15,7 +15,7 @@ Originally written by [Connect](https://forums.heroesofnewerth.com/showthread.ph
 2. Place the downloaded `HoN-Constant-Inventory-Mod.honmod` file into your Heroes of Newerth directory under `game/mod` folders. For example: `C:\Program Files (x86)\Heroes of Newerth\game\mods`.
 
 3. Open up `HoN Mod Manager` and enable `Constant Inventory Mod` mod: <br/><br/>
-![Open HoN Mod Manager and click 'enable' for the 'Constant Inventory Mod' mod.](https://i.imgur.com/CnsjJwd.jpg)
+![Open HoN Mod Manager and click 'enable' for the 'Constant Inventory Mod' mod.](https://i.imgur.com/zjR0jMK.png)
 
 4. Click `File -> Apply Mods`: <br/><br/>
 ![Click the 'File' tab and click on the 'Apply Mods' option.](https://i.imgur.com/ge7BQFv.png) <br/><br/>
