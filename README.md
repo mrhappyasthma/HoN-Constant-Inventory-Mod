@@ -1,4 +1,4 @@
-# HoN-Constant-Inventory-Mod
+# HoN Constant Inventory Mod
 User interface mod for Heroes of Newerth to constantly show the inventory above each player without needing to mouse over them.
 
 ## About
@@ -15,10 +15,10 @@ Originally written by [Connect](https://forums.heroesofnewerth.com/showthread.ph
 2. Place the downloaded `HoN-Constant-Inventory-Mod.honmod` file into your Heroes of Newerth directory under `game/mod` folders. For example: `C:\Program Files (x86)\Heroes of Newerth\game\mods`.
 
 3. Open up `HoN Mod Manager` and enable `Constant Inventory Mod` mod: <br/><br/>
-![Open HoN Mod Manager and click 'enable' for the 'Constant Inventory Mod' mod.](https://i.imgur.com/zjR0jMK.png)
+![Open HoN Mod Manager and click 'enable' for the 'Constant Inventory Mod' mod.](https://i.imgur.com/7gv8KgE.jpg)
 
 4. Click `File -> Apply Mods`: <br/><br/>
-![Click the 'File' tab and click on the 'Apply Mods' option.](https://i.imgur.com/ge7BQFv.png) <br/><br/>
+![Click the 'File' tab and click on the 'Apply Mods' option.](https://i.imgur.com/zjR0jMK.png) <br/><br/>
 *Note: You will need to re-apply mods every time HoN is updated.* <br/><br/>
 *This is done manually by opening HoN Mod Manager. It will detect the version change and give you a pop-up asking if you'd like to re-apply. Click yes, and you're good to go! If not, you're client WILL be very buggy.*
 
