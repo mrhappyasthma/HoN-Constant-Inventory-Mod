@@ -4,12 +4,15 @@ application="Heroes of Newerth"
     appversion="*"
     mmversion="1.3"
     name="Constant Inventory Mod"
-    version="0.3"
-    description="Displays a constant Inventory above all heroes. Updated and fixed for HoN 4.2 by MrHappyAsthma. Fixed for HoN 4.0 by JinZero [12/30/2016], also added a 7th inventory slot (A Ward slot)."
-    author="Connect, JinZero, MrHappyAsthma"
+    version="1.0"
+    description="Displays a constant inventory above all heroes."
+    author="Connect, JinZero (Fixed for 4.2), MrHappyAsthma (Fixed for 4.6)"
+    weblink="https://github.com/mrhappyasthma/HoN-Constant-Inventory-Mod/"
+    updatecheckurl="http://raw.githubusercontent.com/mrhappyasthma/HoN-Constant-Inventory-Mod/master/version.txt"
+    updatedownloadurl="http://github.com/mrhappyasthma/HoN-Constant-Inventory-Mod/releases/download/Latest/ConstantInventoryMod.honmod"
 	>
 
-		<editfile name="ui/alt_info_hero.interface">
+	<editfile name="ui/alt_info_hero.interface">
 		<find><![CDATA[<panel name="inventory_container{unit}" align="center" y="3h" height="2.1h" grow="1" regrow="1" growinvis="0" float="right" padding="0.2h" noclick="1">
 						<instance name="inventory_item" slot="0" unit="{unit}" scrollIndex="6"/>
 						<instance name="inventory_item" slot="1" unit="{unit}" scrollIndex="7"/>
@@ -18,6 +21,7 @@ application="Heroes of Newerth"
 						<instance name="inventory_item" slot="4" unit="{unit}" scrollIndex="10"/>
 						<instance name="inventory_item" slot="5" unit="{unit}" scrollIndex="11"/>
 						<instance name="inventory_item_ward" slot="6" unit="{unit}" scrollIndex="12"/>
+						<instance name="inventory_item_ward" slot="7" unit="{unit}" scrollIndex="13"/>
 					</panel>
 				</panel>]]></find>
 		<insert position="after"><![CDATA[
@@ -30,6 +34,7 @@ application="Heroes of Newerth"
 			<instance name="inventory_item" slot="4" unit="{unit}" scrollIndex="10"/>
 			<instance name="inventory_item" slot="5" unit="{unit}" scrollIndex="11"/>
 			<instance name="inventory_item_ward" slot="6" unit="{unit}" scrollIndex="12"/>
+      <instance name="inventory_item_ward" slot="7" unit="{unit}" scrollIndex="13"/>
 		</panel>]]></insert>
-		</editfile>
+	</editfile>
 </modification>
