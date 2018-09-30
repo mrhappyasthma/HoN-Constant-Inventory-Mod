@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification
+application="Heroes of Newerth"
+    appversion="*"
+    mmversion="1.3"
+    name="Constant Inventory Mod"
+    version="0.3"
+    description="Displays a constant Inventory above all heroes. Updated and fixed for HoN 4.2 by MrHappyAsthma. Fixed for HoN 4.0 by JinZero [12/30/2016], also added a 7th inventory slot (A Ward slot)."
+    author="Connect, JinZero, MrHappyAsthma"
+	>
+
+		<editfile name="ui/alt_info_hero.interface">
+		<find><![CDATA[<panel name="inventory_container{unit}" align="center" y="3h" height="2.1h" grow="1" regrow="1" growinvis="0" float="right" padding="0.2h" noclick="1">
+						<instance name="inventory_item" slot="0" unit="{unit}" scrollIndex="6"/>
+						<instance name="inventory_item" slot="1" unit="{unit}" scrollIndex="7"/>
+						<instance name="inventory_item" slot="2" unit="{unit}" scrollIndex="8"/>
+						<instance name="inventory_item" slot="3" unit="{unit}" scrollIndex="9"/>
+						<instance name="inventory_item" slot="4" unit="{unit}" scrollIndex="10"/>
+						<instance name="inventory_item" slot="5" unit="{unit}" scrollIndex="11"/>
+						<instance name="inventory_item_ward" slot="6" unit="{unit}" scrollIndex="12"/>
+					</panel>
+				</panel>]]></find>
+		<insert position="after"><![CDATA[
+		<!--Constant Inventory panel-->
+		<panel name="inventory_container{unit}" align="center" x="-0.5h" y="4h" height="2.1h" grow="1" regrow="1" growinvis="0" float="right" padding="0.2h" noclick="1">
+			<instance name="inventory_item" slot="0" unit="{unit}" scrollIndex="6"/>
+			<instance name="inventory_item" slot="1" unit="{unit}" scrollIndex="7"/>
+			<instance name="inventory_item" slot="2" unit="{unit}" scrollIndex="8"/>
+			<instance name="inventory_item" slot="3" unit="{unit}" scrollIndex="9"/>
+			<instance name="inventory_item" slot="4" unit="{unit}" scrollIndex="10"/>
+			<instance name="inventory_item" slot="5" unit="{unit}" scrollIndex="11"/>
+			<instance name="inventory_item_ward" slot="6" unit="{unit}" scrollIndex="12"/>
+		</panel>]]></insert>
+		</editfile>
+</modification>
