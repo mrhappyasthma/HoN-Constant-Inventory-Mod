@@ -12,7 +12,7 @@ This is a mod for [Heroes of Newerth](http://www.heroesofnewerth.com) to constan
 Originally written by [Connect](https://forums.heroesofnewerth.com/showthread.php?345418-&%239827;-Connect-s-Mods-Better-blips-Slim-Health-bar-Miss-Buttons-and-MUCH-MORE!).
 
 ## Installing
-0. You will need the [HoN Mod Manager](https://forums.heroesofnewerth.com/showthread.php?596451-HoN-Modification-Manager-1-4-0&p=16563263&viewfull=1#post16563263) to use this mod. So first, install that.
+0. You will need the [HoN Mod Manager](https://forums.heroesofnewerth.com/index.php?/topic/112-hon-mod-manager-download/) to use this mod. So first, install that.
 
 1. Once that is installed, you can download the latest release of the `Constant Inventory Mod` mod from [here](http://github.com/mrhappyasthma/HoN-Constant-Inventory-Mod/releases/download/Latest/ConstantInventoryMod.honmod).
 
